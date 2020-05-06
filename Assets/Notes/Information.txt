@@ -1,0 +1,45 @@
+------------------ INFORMATION --------------------------------------------------
+
+Welcome to Pegleg Joe's official development guide.
+Development should be mostly straightforward,
+but if in doubt you can read this and/or look at existing prefabs in the editor
+
+---------------------------------------------------------------------------------
+
+--------- PHYSICS OBJECTS ---------
+
+Physics objects must have && in the gameobject's name, except in a few cases
+Physics objects that are kinematic should have ## in name
+- Names with ## will not interact with Joe's cannonballs
+
+--------- DESTRUCTION OBJECTS ---------
+
+Destructable objects can be created in different ways
+- Can be isolated
+- Can be connected to other destruction objects
+- Needs destructable object script
+
+For destruction stages to work it needs a "Stages" child with it's own children
+Each "Stages" child will act as seperate stage and will transition from first to last
+
+---------------- ENEMIES ----------------
+
+Create gameobject with these components
+- Navmesh agent
+- An enemy script
+- Animator
+- Rigidbody
+- A collider
+- An audio source
+
+Animator must have these states:
+- Walking
+- Idle
+- Attack_xxx (xxx being index for an attack, start at 001)
+- Hit_001
+
+To use attacks and other enemy specific functions the animations must include them in events.
+
+Sounds will be taken from a child of the gameobject "Sounds"
+
+------------------------------------------------

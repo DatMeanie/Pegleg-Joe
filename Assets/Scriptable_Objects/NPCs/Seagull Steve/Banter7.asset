@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c019c0e0036be724e86972d653462d9b, type: 3}
+  m_Name: Banter7
+  m_EditorClassIdentifier: 
+  dialogue: I heard the local shipbuilder is making a comeback soon. Lazy bastard
+    got bored of life I guess.
+  choice1Text: Talk
+  choice2Text: Talk
+  ID: 0
+  Choice1ID: 0
+  Choice2ID: 0
+  voiceLine: {fileID: 8300000, guid: 80dc9722a2924c44c9f3146d003327b6, type: 3}
+  NotRandom: 0
+  QuestID: 

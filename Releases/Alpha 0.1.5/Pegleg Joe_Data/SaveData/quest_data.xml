@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<QuestDataBase xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <QuestList>
+    <Quest Name="Test quest" QuestGiver="null" CurrentStage="-1" RewardDialogueID="0">
+      <QuestConditions>
+        <QuestConditionEntry Description="Do not delete!" ConditionID="KILL_X_OF_Y" x="1" y="5" z="0" AdditionalDialogueID="0" />
+      </QuestConditions>
+    </Quest>
+	<Quest Name="Seagull_Quest1" QuestGiver="Seagull Steve" CurrentStage="-1" RewardDialogueID="6">
+      <QuestConditions>
+        <QuestConditionEntry Description="Kill XAMOUNT midgets" ConditionID="KILL_X_OF_Y" x="15" y="3" z="0" AdditionalDialogueID="0" />
+      </QuestConditions>
+    </Quest>
+	<Quest Name="Seagull_Quest2" QuestGiver="Seagull Steve" CurrentStage="-1" RewardDialogueID="6">
+      <QuestConditions>
+        <QuestConditionEntry Description="Kill XAMOUNT turtles" ConditionID="KILL_X_OF_Y" x="15" y="2" z="0" AdditionalDialogueID="0" />
+      </QuestConditions>
+    </Quest>
+	<Quest Name="Seagull_Quest3" QuestGiver="Seagull Steve" CurrentStage="-1" RewardDialogueID="6">
+      <QuestConditions>
+        <QuestConditionEntry Description="Kill XAMOUNT red people" ConditionID="KILL_X_OF_Y" x="15" y="0" z="0" AdditionalDialogueID="0" />
+      </QuestConditions>
+    </Quest>
+	<Quest Name="Seagull_Quest4" QuestGiver="Seagull Steve" CurrentStage="-1" RewardDialogueID="6">
+      <QuestConditions>
+        <QuestConditionEntry Description="Earn 500 coins in one go" ConditionID="EARNED_X_COINS_ONEPLAY" x="500" y="0" z="0" AdditionalDialogueID="0" />
+      </QuestConditions>
+    </Quest>
+	<Quest Name="Seagull_Quest5" QuestGiver="Seagull Steve" CurrentStage="-1" RewardDialogueID="6">
+      <QuestConditions>
+        <QuestConditionEntry Description="Survive 10 minutes on Wizard County" ConditionID="X_TIMEON_Y_MAP" x="600" y="0" z="0" AdditionalDialogueID="0" />
+      </QuestConditions>
+    </Quest>
+  </QuestList>
+</QuestDataBase>
